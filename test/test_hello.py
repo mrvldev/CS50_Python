@@ -1,4 +1,4 @@
-from hello import hello
+from test.hello import hello
 
 def test_default():
     assert hello("Alice") == "hello, Alice"
